@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(134, 95, 243);
+    .container{
+        &-logo{
+          background-color: rgb(94, 224, 214);
+          border-radius: 10px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+        }
+    }
+    .container-box{
+        &-question{
+            background-color: rgb(94, 224, 214);
+            border-radius: 5px;
+            width: 70%;
+            margin: 0 auto;
+            .box-question{
+                border: 2px solid rgb(60, 49, 158);
+                border-radius: 5px;
+                text-align: center;
+            }
+        }
+
+        &-answer{
+            margin: 0 auto;
+
+            .box-answer{
+                border: 2px solid rgb(60, 49, 158);
+                background-color: rgb(94, 224, 214);
+                border-radius: 5px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
